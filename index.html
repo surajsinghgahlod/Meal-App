@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <!-- Title  -->
+     <title>Meals</title>
+    <!-- CSS STYLE FILE  -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- FAV-ICON LINK -->
+    <link rel="shortcut icon" href="./assets/m-logo.png" type="image/x-icon" />
+  </head>
+  <body>
+    <!----------- HEADER SECTION START ---------->
+    <header>
+      <!-- logo-image -->
+      <div class="logo"></div>
+      <!-- Favourites-Icon -->
+      <div class="favourites">
+        <a><ion-icon class="icon" name="heart"></ion-icon></a>
+        <a class="fav">
+          Favourites 
+        </a>
+      </div>
+    </header>
+    <!----------- HEADER SECTION END ---------->
+
+    <!------------ MEALS SECTION START ----------->
+    <section class="meals">
+      <!-- heading -->
+      <div class="heading">
+        <h1>Find Your Delicious Meals With Complete Recipe Here</h1>
+      </div>
+      <!-- search-div -->
+      <div class="search">
+        <ion-icon name="search-outline"></ion-icon>
+        <input type="text" id="search-1" placeholder="Search..." />
+      </div>
+      <!-- meals-container -->
+      <div class="meal-content"></div>
+      <p class="result">404 : Unable to Found The Meal</p>
+    </section>
+    <!------------ MEALS SECTION END ----------->
+
+    <!-------------- MORE DETAILS SECTION START -------------->
+    <section class="more-details">
+      <!-- model-display -->
+      <div class="model"></div>
+      <!-- details-container -->
+      <div class="container">
+        <div class="meals-image">
+          <!-- meal-image -->
+          <div class="image"></div>
+        </div>
+        <h2 class="dish-name"></h2>
+        <!-- reciepe of the meal -->
+        <div class="reciepe">
+          <p></p>
+        </div>
+        <!-- buttons -->
+        <div class="btn-container">
+          <button class="watch-vedio" type="button">Watch Vedio</button>
+          <button class="back" type="button">Back</button>
+        </div>
+      </div>
+    </section>
+    <!---------- MORE DETAILS SECTION Ends ------------->
+
+    <!--------- FAVOURITES SECTION Starts -------->
+    <section class="fav-meals">
+      <!-- heading -->
+      <div class="heading">
+        <h1>All Your Favourites Meals Are Here:</h1>
+      </div>
+      <!-- meals-container -->
+      <div class="meal-content"></div>
+    </section>
+    <!--------- FAVOURITES SECTION Ends ---------->
+
+    <!-- Ion-Icons Link -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" ></script>
+      
+    <!-- JAVASCRIPT FILE LINK -->
+    <script src="index.js"></script>
+  </body>
+</html>
